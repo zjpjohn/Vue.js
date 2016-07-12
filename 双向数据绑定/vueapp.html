@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<script type="text/javascript" src="../node_modules/vue/dist/vue.min.js"></script>
+<body>
+	<div id="app">
+		<p>{{message.split('').reverse().join('')}}</p>
+		<input v-model='message'>
+	</div>
+	<script type="text/javascript">
+		new Vue({
+			el: '#app',
+			data: {
+				message: '菜鸟教程！'
+			}
+		})
+	</script>
+</body>
+</html>

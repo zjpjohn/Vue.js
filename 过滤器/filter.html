@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="../node_modules/vue/dist/vue.min.js"></script>
+</head>
+<body>
+	<div id="app">
+		<p>{{message}}</p>
+		<p>{{message | uppercase}}</p>
+		<p>{{message | reverse | uppercase}}</p>
+	</div>
+	<script type="text/javascript">
+		Vue.filter('reverse', function(val) {
+			return val.split('').reverse().join('');
+		});
+		new Vue({
+			el: '#app',
+			data: {
+				message: 'Hello World!'
+			}
+		})
+	</script>
+</body>
+</html>

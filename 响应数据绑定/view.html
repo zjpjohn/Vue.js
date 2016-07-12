@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="../node_modules/vue/dist/vue.min.js"></script>
+	<script type="text/javascript" src="model.js"></script>
+</head>
+<body>
+	<div id="example-1">
+		Hello {{name}}
+	</div>
+	<div id="example-2">
+		<p v-if="greeting">Hello!</p>
+	</div>
+	<script type="text/javascript">
+		var exampleVM = new Vue({
+			el: '#example-1',
+			data: exampleData
+		})
+
+		var exampleVM2 = new Vue({
+			el: '#example-2',
+			data: {
+				greeting: true
+			}
+		})
+	</script>
+</body>
+</html>
