@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="../node_modules/vue/dist/vue.min.js"></script>
+</head>
+<body>
+<!-- 对象语法 -->
+	<!-- 我们可以传给v-bind:class一个对象，以动态地切换class。注意v-bind:class指令可以与普通的class特性共存： -->
+	<div class="static" v-bind:class="{'class-a': isA, 'class-b': isB}"></div>
+	<script type="text/javascript">
+		var vm = new Vue({
+			el: '.static',
+			data: {
+				isA: true,
+				isB: false
+			}
+		})
+		
+		// 渲染为：<div class="static class-a"></div>
+		//  当 isA 和 isB 变化时，class 列表将相应地更新。例如，如果 isB 变为 true，class 列表将变为 "static class-a class-b"。
+	</script>
+		 
+<!-- 你也可以直接绑定数据里的一个对象： -->
+	<div v-bind:class="classObject"></div>
+	<script type="text/javascript">
+	var vm = new Vue({
+		el: '.static'
+		data: {
+			classObject: {
+				'class-a': true,
+				'class-b': false
+			}
+		}
+	})
+		
+		//我们也可以在这里绑定一个返回对象的计算属性。这是一个常用且强大的模式。
+	</script> 
+
+
+
+<!-- 数组语法 -->
+	<!-- 我们可以把一个数组传递给v-bind:class，以应用一个class列表： -->
+	<div v-bind:class="[classA,classB]"></div>
+	<script type="text/javascript">
+		var vm = new Vue({
+			el: 'div',
+			data: {
+				classA: 'class-a',
+				classB: 'class-b'
+			}
+		})
+		// 渲染为：<div class="class-a class-b"></div>
+		// 如果你也想根据条件切换列表中的 class，可以用三元表达式：
+		// <div v-bind:class="[classA, isB ? classB : '']">
+		// 此例始终添加 classA，但是只有在 isB 是 true 时添加 classB 。
+	</script>
+</body>
+</html>

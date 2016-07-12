@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="../node_modules/vue/dist/vue.min.js"></script>
+</head>
+<body>
+<!-- 对象语法 -->
+	<!-- v-bind:style 的对象语法十分直观——看着非常像 CSS，其实它是一个 JavaScript 对象。CSS 属性名可以用驼峰式（camelCase）或短横分隔命名（kebab-case）： -->
+	<div v-bind:style="{color: activeColor, fontSize: fontSize + 'px'}">你好！vue</div>
+
+	<script type="text/javascript">
+		var vm = new Vue({
+			el: 'div',
+			data: {
+				activeColor: 'red',
+				fontSize: 30
+			}
+		})
+	</script>
+	<!-- 直接绑定到一个样式对象通常更好，让模板更清晰： -->
+	<div v-bind:style="styleObject">你好！vue</div>
+
+	<script type="text/javascript">
+		var vm = new Vue({
+			el: 'div',
+			data: {
+				styleObject: {
+					color: 'red',
+					fontSize: '13px'
+				}
+			}
+		})
+	</script>
+	<!-- 数组语法 -->
+	<div v-bind:style="[styleObjectA, styleObjectB]">
+	<script type="text/javascript">
+		var vm = new Vue({
+			el: 'div',
+			data: {
+				styleObjectA: {
+					color: 'red',
+					fontSize: '13px'
+				},
+				styleObjectB: {
+					color: 'blue',
+					fontSize: '23px'
+				},
+			}
+		})
+	</script>
+	<!-- 自动添加前缀 -->
+	<!-- 当 v-bind:style 使用需要厂商前缀的 CSS 属性时，如 transform，Vue.js 会自动侦测并添加相应的前缀。 -->
+</body>
+</html>
