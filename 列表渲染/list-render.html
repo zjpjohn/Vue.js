@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="../node_modules/vue/dist/vue.min.js"></script>
+</head>
+<body>
+<!-- v-for -->
+	<!-- 可以使用 v-for 指令基于一个数组渲染一个列表。这个指令使用特殊的语法，形式为 item in items，items 是数据数组，item 是当前数组元素的别名： -->
+	<ul id="example-1">
+		<li v-for="item in items">
+			{{item.message}}
+		</li>
+	</ul>
+	<script type="text/javascript">
+		var example1 = new Vue({
+			el: '#example-1',
+			data: {
+				items:[
+					{message: 'Foo'},
+					{message: 'Bar'}
+				]
+			}
+		})
+		// 结果：
+		// 		Foo
+		// 		Bar
+	</script>
+
+	<!-- 在 v-for 块内我们能完全访问父组件作用域内的属性，另有一个特殊变量 $index，正如你猜到的，它是当前数组元素的索引： -->
+	<ul id="example-2">
+		<li v-for="item in items">
+			{{parentMessage}} - {{$index}} - {{item.message}}
+		</li>
+	</ul>
+	<script type="text/javascript">
+		var example2 = new Vue({
+			el: '#example-2',
+			data: {
+				parentMessage: 'Parent',
+				items: [
+					{message: 'Foo'},
+					{message: 'Bar'}
+				]
+			}
+		})
+		// 结果：
+		// 	  Parent-0-Foo
+		// 	  Parent-1-Bar
+	</script>
+
+	<!-- 另外，你可以为索引指定一个别名（如果 v-for 用于一个对象，则可以为对象的键指定一个别名）： -->
+	<div v-for="(index,item) in items">
+		{{index}} {{item.message}}
+	</div>
+
+	<!-- 从 1.0.17 开始可以使用 of 分隔符，更接近 JavaScript 遍历器语法： -->
+	<div v-for="item of items"></div>
+
+	<script type="text/javascript">
+		var example1 = new Vue({
+			el: 'div',
+			data: {
+				items: [
+					{message: 'Foo'},
+					{message: 'Bar'}
+				]
+			}
+		})
+		// 结果：
+		// 	  0 Foo
+		// 	  1 Bar
+	</script>
+
+<!-- 对象v-for -->
+	<!-- 也可以使用 v-for 遍历对象。除了 $index 之外，作用域内还可以访问另外一个特殊变量 $key。 -->
+	<ul id="repeat-object" class="demo">
+		<li v-for="value in object">
+			{{$key}} : {{value}}
+		</li>
+	</ul>
+	<script type="text/javascript">
+		new Vue({
+			el: '#repeat-object',
+			data: {
+				object: {
+					FirstName: 'John',
+					LastName: ' Doe',
+					Age: 30
+				}
+			}
+		})
+		// 结果：
+		// 	  FirstName: John
+		//	  LastName:  Doe
+		//	  Age: 30
+	</script>
+</body>
+</html>
