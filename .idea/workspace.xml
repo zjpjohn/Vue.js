@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f27947-c40b-4f54-92ff-b0edd42c1f11" name="Default" comment="SVG图形">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/示例/模态组件/app.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/示例/模态组件/app.html" afterPath="$PROJECT_DIR$/示例/模态组件/app.html" />
     </list>
     <list id="cafd89b9-3e3b-4b35-b5f0-bdcb33392b33" name="New changelist" comment="" />
     <ignored path="Vue.js.iws" />
@@ -34,8 +31,8 @@
       <file leaf-file-name="app.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/示例/模态组件/app.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+            <state relative-caret-position="492">
+              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -284,7 +281,7 @@
       <workItem from="1474938131587" duration="593000" />
       <workItem from="1475032890780" duration="102000" />
       <workItem from="1475033008142" duration="6759000" />
-      <workItem from="1475112948076" duration="3041000" />
+      <workItem from="1475112948076" duration="3418000" />
     </task>
     <task id="LOCAL-00001" summary="Markdown 编辑器">
       <created>1474622405711</created>
@@ -318,7 +315,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27780000" />
+    <option name="totallyTimeSpent" value="28157000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -330,7 +327,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="440" y="40" width="1314" height="830" extended-state="1" />
+    <frame x="440" y="40" width="1314" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2112" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -480,8 +477,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/示例/模态组件/app.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        <state relative-caret-position="492">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
         </state>
       </provider>
