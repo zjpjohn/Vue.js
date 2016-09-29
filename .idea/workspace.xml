@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f27947-c40b-4f54-92ff-b0edd42c1f11" name="Default" comment="SVG图形">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/示例/模态组件/app.html" afterPath="$PROJECT_DIR$/示例/模态组件/app.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/示例/弹性Header/app.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="cafd89b9-3e3b-4b35-b5f0-bdcb33392b33" name="New changelist" comment="" />
     <ignored path="Vue.js.iws" />
@@ -28,10 +29,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="app.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/示例/模态组件/app.html">
+        <entry file="file://$PROJECT_DIR$/示例/弹性Header/app.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -52,6 +53,7 @@
       <list>
         <option value="$PROJECT_DIR$/示例/SVG图形/app.html" />
         <option value="$PROJECT_DIR$/示例/模态组件/app.html" />
+        <option value="$PROJECT_DIR$/示例/弹性Header/app.html" />
       </list>
     </option>
   </component>
@@ -65,8 +67,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="440" />
-    <option name="y" value="40" />
+    <option name="x" value="445" />
+    <option name="y" value="29" />
     <option name="width" value="1314" />
     <option name="height" value="830" />
   </component>
@@ -153,10 +155,6 @@
               <option name="myItemId" value="示例" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="表格组件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -172,21 +170,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="模态组件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vue.js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vue.js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="示例" />
+              <option name="myItemId" value="弹性Header" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,7 +264,7 @@
       <workItem from="1474938131587" duration="593000" />
       <workItem from="1475032890780" duration="102000" />
       <workItem from="1475033008142" duration="6759000" />
-      <workItem from="1475112948076" duration="3718000" />
+      <workItem from="1475112948076" duration="8640000" />
     </task>
     <task id="LOCAL-00001" summary="Markdown 编辑器">
       <created>1474622405711</created>
@@ -314,7 +298,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28457000" />
+    <option name="totallyTimeSpent" value="33379000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -326,7 +310,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="440" y="40" width="1314" height="830" extended-state="0" />
+    <frame x="445" y="29" width="1314" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2112" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -476,8 +460,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/示例/模态组件/app.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/示例/弹性Header/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding />
         </state>
       </provider>
