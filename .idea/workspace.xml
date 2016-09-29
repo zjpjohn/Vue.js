@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f27947-c40b-4f54-92ff-b0edd42c1f11" name="Default" comment="SVG图形">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/示例/模态组件/app.html" afterPath="$PROJECT_DIR$/示例/模态组件/app.html" />
     </list>
     <list id="cafd89b9-3e3b-4b35-b5f0-bdcb33392b33" name="New changelist" comment="" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="app.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/示例/模态组件/app.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="474">
+              <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -281,7 +280,7 @@
       <workItem from="1474938131587" duration="593000" />
       <workItem from="1475032890780" duration="102000" />
       <workItem from="1475033008142" duration="6759000" />
-      <workItem from="1475112948076" duration="3418000" />
+      <workItem from="1475112948076" duration="3718000" />
     </task>
     <task id="LOCAL-00001" summary="Markdown 编辑器">
       <created>1474622405711</created>
@@ -315,7 +314,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28157000" />
+    <option name="totallyTimeSpent" value="28457000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -477,8 +476,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/示例/模态组件/app.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="474">
+          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
           <folding />
         </state>
       </provider>
