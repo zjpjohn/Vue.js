@@ -2,8 +2,618 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f27947-c40b-4f54-92ff-b0edd42c1f11" name="Default" comment="SVG图形">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/示例/弹性Header/app.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/jason.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/示例/TodoMVC/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/示例/TodoMVC/app.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/示例/TodoMVC/app.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/dist/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/dist/vue.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/.bin/envify" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/.bin/envify.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/bin/envify" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/.bin/jstransform" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/.bin/jstransform.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/PATENTS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/bin/jstransform" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/jestEnvironment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/jestPreprocessor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/.bin/commonize" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/.bin/commonize.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/.bin/esparse" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/.bin/esparse.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/.bin/esvalidate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/.bin/esvalidate.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/base62/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/base62/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/base62/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/base62/CODE_OF_CONDUCT.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/base62/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/base62/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/base62/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/base62/base62.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/base62/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/base62/test/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/bin/commonize" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/lib/cache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/lib/commoner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/lib/context.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/lib/grep.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/lib/output.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/lib/reader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/lib/relative.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/lib/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/lib/watcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/.bin/mkdirp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/.bin/mkdirp.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/commander/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/commander/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/commander/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/commander/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/commander/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/commander/node_modules/graceful-readlink/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/commander/node_modules/graceful-readlink/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/commander/node_modules/graceful-readlink/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/commander/node_modules/graceful-readlink/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/commander/node_modules/graceful-readlink/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/commander/node_modules/graceful-readlink/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/commander/node_modules/graceful-readlink/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/commander/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/bench/detect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/bench/esprima_v_acorn.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/example/strings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/example/strings_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/.bin/acorn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/.bin/acorn.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/.tern-project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/AUTHORS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/bin/acorn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/bin/build-acorn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/bin/generate-identifier-regex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/bin/prepublish.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/bin/update_authors.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/bin/without_eval" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/dist/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/dist/acorn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/dist/acorn_csp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/dist/acorn_loose.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/dist/walk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/expression.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/identifier.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/loose/acorn_loose.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/loose/expression.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/loose/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/loose/parseutil.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/loose/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/loose/statement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/loose/tokenize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/lval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/parseutil.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/statement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/tokencontext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/tokenize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/tokentype.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/walk/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/acorn/src/whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/defined/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/defined/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/defined/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/defined/example/defined.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/defined/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/defined/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/defined/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/defined/test/def.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/node_modules/defined/test/falsy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/both.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/chained.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/complicated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/es6-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/files/both.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/files/chained.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/files/es6-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/files/generators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/files/isrequire.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/files/nested.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/files/shebang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/files/sparse-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/files/strings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/files/word.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/files/yield.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/generators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/isrequire.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/nested.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/noargs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/parseopts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/return.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/shebang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/sparse-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/strings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/word.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/detective/test/yield.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/glob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/inflight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/node_modules/once/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/node_modules/once/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/node_modules/once/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/node_modules/once/node_modules/wrappy/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/node_modules/once/node_modules/wrappy/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/node_modules/once/node_modules/wrappy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/node_modules/once/node_modules/wrappy/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/node_modules/once/node_modules/wrappy/wrappy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/node_modules/once/once.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/node_modules/once/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/node_modules/wrappy/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/node_modules/wrappy/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/node_modules/wrappy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/node_modules/wrappy/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/node_modules/wrappy/wrappy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inflight/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inherits/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inherits/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inherits/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inherits/inherits.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inherits/inherits_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inherits/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/inherits/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/minimatch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/test/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/minimatch/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/once/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/once/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/once/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/once/node_modules/wrappy/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/once/node_modules/wrappy/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/once/node_modules/wrappy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/once/node_modules/wrappy/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/once/node_modules/wrappy/wrappy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/once/once.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/once/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/path-is-absolute/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/path-is-absolute/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/path-is-absolute/license" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/path-is-absolute/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/node_modules/path-is-absolute/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/glob/sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/graceful-fs/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/graceful-fs/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/graceful-fs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/graceful-fs/fs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/graceful-fs/graceful-fs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/graceful-fs/legacy-streams.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/graceful-fs/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/graceful-fs/polyfills.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/Changelog.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/encodings/dbcs-codec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/encodings/dbcs-data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/encodings/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/encodings/internal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/encodings/sbcs-codec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/encodings/sbcs-data-generated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/encodings/sbcs-data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/encodings/tables/big5-added.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/encodings/tables/cp936.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/encodings/tables/cp949.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/encodings/tables/cp950.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/encodings/tables/eucjp.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/encodings/tables/gbk-added.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/encodings/tables/shiftjis.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/encodings/utf16.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/encodings/utf7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/lib/bom-handling.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/lib/extend-node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/lib/streams.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/iconv-lite/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/bin/cmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/bin/usage.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/examples/pow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/node_modules/minimist/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/node_modules/minimist/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/node_modules/minimist/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/node_modules/minimist/example/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/node_modules/minimist/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/node_modules/minimist/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/node_modules/minimist/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/node_modules/minimist/test/dash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/node_modules/minimist/test/default_bool.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/node_modules/minimist/test/dotted.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/node_modules/minimist/test/long.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/node_modules/minimist/test/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/node_modules/minimist/test/parse_modified.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/node_modules/minimist/test/short.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/node_modules/minimist/test/whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/test/chmod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/test/clobber.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/test/mkdirp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/test/opts_fs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/test/opts_fs_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/test/perm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/test/perm_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/test/race.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/test/rel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/test/return.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/test/return_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/test/root.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/test/sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/test/umask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/mkdirp/test/umask_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/private/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/private/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/private/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/private/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/private/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/private/private.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/private/test/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/q/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/q/CHANGES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/q/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/q/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/q/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/q/q.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/q/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/example/add-braces" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/example/generic-identity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/example/identity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/example/to-while" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/lib/comments.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/lib/fast-path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/lib/lines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/lib/mapping.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/lib/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/lib/parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/lib/patcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/lib/printer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/lib/types.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/lib/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/.bin/esparse" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/.bin/esparse.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/.bin/esvalidate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/.bin/esvalidate.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/def/babel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/def/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/def/e4x.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/def/es6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/def/es7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/def/esprima.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/def/fb-harmony.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/def/mozilla.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/lib/equiv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/lib/node-path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/lib/path-visitor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/lib/path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/lib/scope.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/lib/shared.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/lib/types.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/ast-types/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/esprima-fb/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/esprima-fb/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/esprima-fb/bin/esparse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/esprima-fb/bin/esvalidate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/esprima-fb/esprima.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/esprima-fb/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/esprima-fb/test/compat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/esprima-fb/test/reflect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/esprima-fb/test/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/esprima-fb/test/runner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/esprima-fb/test/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/private/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/private/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/private/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/private/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/private/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/private/private.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/private/test/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/dist/source-map.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/dist/source-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/dist/source-map.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/dist/source-map.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/lib/array-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/lib/base64-vlq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/lib/base64.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/lib/binary-search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/lib/mapping-list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/lib/quick-sort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/lib/source-map-consumer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/lib/source-map-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/lib/source-node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/lib/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/node_modules/source-map/source-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/node_modules/recast/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/commoner/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb/bin/esparse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb/bin/esvalidate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb/esprima.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb/test/compat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb/test/reflect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb/test/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb/test/runner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb/test/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/object-assign/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/object-assign/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/object-assign/license" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/object-assign/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/object-assign/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/build/assert-shim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/build/mini-require.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/build/prefix-source-map.jsm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/build/prefix-utils.jsm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/build/suffix-browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/build/suffix-source-map.jsm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/build/suffix-utils.jsm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/build/test-prefix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/build/test-suffix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/lib/source-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/lib/source-map/array-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/lib/source-map/base64-vlq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/lib/source-map/base64.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/lib/source-map/binary-search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/lib/source-map/mapping-list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/lib/source-map/quick-sort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/lib/source-map/source-map-consumer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/lib/source-map/source-map-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/lib/source-map/source-node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/lib/source-map/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine/amdefine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine/intercept.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/node_modules/source-map/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/polyfill/Object.es6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/simple.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/src/__tests__/jstransform-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/src/__tests__/jstransform-utils-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/src/cli.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/src/docblock.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/src/inline-source-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/src/jstransform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/src/simple.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/src/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/es6-arrow-function-visitors-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/es6-call-spread-visitors-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/es6-class-visitors-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/es6-destructuring-visitors-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/es6-es7-object-integration-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/es6-for-of-visitors-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/es6-object-computed-property-visitors-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/es6-object-concise-method-visitors-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/es6-object-short-notation-visitors-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/es6-rest-param-visitors-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/es6-template-visitors-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/es7-rest-property-helpers-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/es7-spread-property-visitors-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/es7-trailing-comma-visitors-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/gen/generate-type-syntax-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/gen/type-syntax-test.rec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/jsx-helpers-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/react-display-name-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/react-jsx-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/reserved-words-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/trailing-comma-visitors-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/type-alias-syntax-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/type-class-syntax-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/type-function-syntax-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/type-interface-syntax-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/type-object-method-syntax-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/type-pattern-syntax-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/type-syntax-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/type-variable-declaration-syntax-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/__tests__/undefined-to-void-0-visitors-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/es6-arrow-function-visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/es6-call-spread-visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/es6-class-visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/es6-destructuring-visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/es6-for-of-visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/es6-object-computed-property-visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/es6-object-concise-method-visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/es6-object-short-notation-visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/es6-rest-param-visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/es6-template-visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/es7-rest-property-helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/es7-spread-property-visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/es7-trailing-comma-visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/jsx-helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/react-display-name-visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/react-jsx-visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/reserved-words-helper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/reserved-words-visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/trailing-comma-visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/type-syntax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/jstransform/visitors/undefined-to-void-0-visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/through/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/through/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/through/LICENSE.APACHE2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/through/LICENSE.MIT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/through/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/through/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/through/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/through/test/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/through/test/auto-destroy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/through/test/buffering.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/through/test/end.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/node_modules/through/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/node_modules/envify/visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/batcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/cache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/compiler/compile-props.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/compiler/compile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/compiler/resolve-slots.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/compiler/transclude.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/element/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/element/partial.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/element/slot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/internal/class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/internal/component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/internal/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/internal/prop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/internal/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/internal/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/priorities.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/bind.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/cloak.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/for.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/if.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/model/checkbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/model/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/model/radio.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/model/select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/model/text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/on.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/ref.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/show.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/filters/array-filters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/filters/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/fragment/factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/fragment/fragment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/global-api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/api/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/api/dom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/api/events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/api/lifecycle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/internal/events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/internal/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/internal/lifecycle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/internal/misc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/internal/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/vue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/observer/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/observer/dep.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/observer/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/parsers/directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/parsers/expression.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/parsers/path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/parsers/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/parsers/text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/transition/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/transition/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/transition/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/util/component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/util/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/util/dom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/util/env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/util/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/util/lang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/util/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/watcher.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Vue.js.iml" afterPath="$PROJECT_DIR$/.idea/Vue.js.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/vue/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue/dist/vue.common.js" afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue/dist/vue.js" afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue/dist/vue.min.js" afterPath="$PROJECT_DIR$/node_modules/vue/dist/vue.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue/package.json" afterPath="$PROJECT_DIR$/node_modules/vue/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue/src/compiler/index.js" afterPath="$PROJECT_DIR$/node_modules/vue/src/compiler/index.js" />
     </list>
     <list id="cafd89b9-3e3b-4b35-b5f0-bdcb33392b33" name="New changelist" comment="" />
     <ignored path="Vue.js.iws" />
@@ -29,11 +639,23 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="app.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/示例/弹性Header/app.html">
+        <entry file="file://$PROJECT_DIR$/示例/TodoMVC/app.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="-75">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/示例/TodoMVC/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,6 +676,10 @@
         <option value="$PROJECT_DIR$/示例/SVG图形/app.html" />
         <option value="$PROJECT_DIR$/示例/模态组件/app.html" />
         <option value="$PROJECT_DIR$/示例/弹性Header/app.html" />
+        <option value="$PROJECT_DIR$/示例/自定义指令/app.html" />
+        <option value="$PROJECT_DIR$/示例/TodoMVC/app.css" />
+        <option value="$PROJECT_DIR$/示例/TodoMVC/app.html" />
+        <option value="$PROJECT_DIR$/示例/TodoMVC/app.js" />
       </list>
     </option>
   </component>
@@ -67,10 +693,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="445" />
-    <option name="y" value="29" />
-    <option name="width" value="1314" />
-    <option name="height" value="830" />
+    <option name="x" value="137" />
+    <option name="y" value="56" />
+    <option name="width" value="1092" />
+    <option name="height" value="689" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -122,60 +748,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vue.js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vue.js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vue.js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vue.js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vue.js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="示例" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vue.js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vue.js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="示例" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="弹性Header" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,6 +798,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -264,7 +847,8 @@
       <workItem from="1474938131587" duration="593000" />
       <workItem from="1475032890780" duration="102000" />
       <workItem from="1475033008142" duration="6759000" />
-      <workItem from="1475112948076" duration="8640000" />
+      <workItem from="1475112948076" duration="10027000" />
+      <workItem from="1475889264147" duration="15521000" />
     </task>
     <task id="LOCAL-00001" summary="Markdown 编辑器">
       <created>1474622405711</created>
@@ -298,7 +882,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33379000" />
+    <option name="totallyTimeSpent" value="50287000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -310,26 +894,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="445" y="29" width="1314" height="830" extended-state="0" />
+    <frame x="137" y="56" width="1092" height="689" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2112" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21498054" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913166" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853025" sideWeight="0.50289977" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853025" sideWeight="0.50289977" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.49710023" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.49710023" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -436,13 +1020,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/示例/SVG图形/a.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/示例/SVG图形/a.html" />
     <entry file="file://$PROJECT_DIR$/示例/SVG图形/app.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2850">
@@ -450,26 +1028,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/示例/表格组件/app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/示例/模态组件/app.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="40" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/示例/弹性Header/app.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="100">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/示例/自定义指令/app.html" />
+    <entry file="file://$PROJECT_DIR$/示例/表格组件/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/示例/TodoMVC/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="215" column="19" selection-start-line="215" selection-start-column="19" selection-end-line="215" selection-end-column="19" />
+          <folding>
+            <element signature="e#3437#3641#2" expanded="false" />
+            <element signature="e#3697#3964#2" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/处理用户输入/userTodo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/示例/TodoMVC/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/示例/TodoMVC/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
           <folding />
         </state>
       </provider>
